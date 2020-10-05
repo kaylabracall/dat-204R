@@ -19,7 +19,7 @@ bignum1 # this becomes 1 x 10^16
 bignum2 <- (bignum2 * 10) + 18
 bignum2 # this also becomes 1 x 10^16
 
-bignum1 - bignum2 # 
+bignum1 - bignum2 # this becomes 2 due to rounding 
 
 # Question 2 
 
@@ -52,7 +52,7 @@ as.integer(longfloat)
 
 longfloat2 <- (1.999999999999999 / 10) + 1.8
 longfloat2 # R rounds this to 2 
-as.integer(longfloat2) 
+as.integer(longfloat2) # longfloat2 as an integer is 2
 
 # Question 4
 
