@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Kayla Bracall
 # Homework 5 (for real)
 
@@ -88,3 +89,5 @@ for(i in 1:length(years)) {
 }
 
 vol_years
+=======
+>>>>>>> e1e92373b5e8384acc914e7d462c131ce28aa118
