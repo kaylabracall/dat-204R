@@ -58,17 +58,33 @@ xor(A,B)
 # Question 3
 
 #create a vector with numbers 1-1000
-original_vector <- c(1:1000)
+#original_vector <- c(1:1000)
 #original_vector
 
 # pull out numbers divisible by two into new vector
-divs_by_two <- original_vector%%2 != 0
+#divs_by_two <- original_vector%%2 != 0
 
 # apply condition to vector and pull out numbers divisible by two into new vector
-vector_2 <- original_vector[divs_by_two]
-vector_2
-
+#vector_2 <- original_vector[divs_by_two]
+#vector_2
 
 # pull out numbers divisible by three into new vector
 
 # check length of new vector 
+
+
+# for loop
+library(ggplot2)
+avocado <- read.csv("avocado.csv", stringsAsFactors=FALSE)
+
+
+years <- unique(avocado$year)
+years
+vol_years <- vector()
+for(i in 1:length(years)) {
+  yearSum <- sum(avocado$Total.Volume[avocado$year == years[i]])
+  vol_years <- c(vol_years, yearSum)
+  
+}
+
+vol_years
