@@ -11,7 +11,7 @@
 globVar <- 1
 
 # create vector to use in for loop 
-adder <- 1:19 
+adder <- 1:20 
 
 # add 2 to globVar 20 times 
 for (i in 1:length(adder)) {
