@@ -1,0 +1,70 @@
+---
+title: "Homework 8"
+author: "Kayla"
+date: "November 5, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# R Markdown Fun
+
+For this homework, I am going to plot some of the data that I manipulated in the Allegheny County Dog Licenses dataset. I have pulled this dataset into a dataframe, below. 
+
+
+
+```{r}
+allegheny_county_dog_licenses <- read.csv("allegheny_county_dog_licenses.csv", stringsAsFactors=FALSE)
+head(allegheny_county_dog_licenses)
+
+
+
+```
+
+## Rosie Dogs!
+
+Because my family has a lovely goldendoodle named Rosie, the first thing I wanted to look at was dogs named Rosie in Allegheny County. To do so, I pulled created a true/false vector that pulled out dogs with the name Rosie, or some variation of that name. I summed it to discover that there are 121 dogs named Rosie in AC. I then put this into a separate dataframe. 
+
+
+```{r echo=FALSE}
+
+library(stringr)
+
+rosie_tf <- str_detect(allegheny_county_dog_licenses$DogName, "ROSIE") #pull out dogs named Rosie
+sum(rosie_tf) # there are 121, hooray!
+rosie_df <- allegheny_county_dog_licenses[rosie_tf, ] # create df
+head(rosie_df)
+
+```
+
+## Goldendoodles! 
+
+The next thing I did was pull out dogs named Rosie that are goldendoodles. To do so, I made a true/false vector to sort for the breed "GOLDENDOODLE" and applied it to the Rosie dataframe. I then summed it to discover there are 8 goldendoodles in AC. 
+```{r}
+
+doodle_rosie_tf <- str_detect(rosie_df$Breed, "GOLDENDOODLE") # from dogs named Rosie, pull out goldendoodles 
+sum(doodle_rosie_tf) # there are 8, double hooray! 
+doodle_rosie_df <- rosie_df[doodle_rosie_tf, ] # create df 
+head(doodle_rosie_df)
+
+```
+
+## Let's plot! 
+
+Next, I decided to plot my 8 happy doods named Rosie. 
+```{r}
+library('ggplot2')
+
+ggplot(data = doodle_rosie_df, aes(x=Color))+
+  geom_bar(color="black", fill="lightgoldenrod2")
+```
+## Rosalies! (Or lack thereof ...)
+
+My Rosie's full name is Rosalie, but she lives in Washington County with my parents. I decided to see if she has an Allegheny County counterpart. First, I created a true/false vector to check the original dataset for dogs named Rosalie. 
+```{r}
+rosalie_tf <- str_detect(allegheny_county_dog_licenses$DogName, "ROSALIE") #pull out dogs named Rosalie 
+sum(rosalie_tf)
+```
+ There are no dogs in Allegheny County names Rosalie! My Rosie is [truly unique](https://www.instagram.com/rosaliethedoodle/)
