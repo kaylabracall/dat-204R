@@ -1,0 +1,112 @@
+---
+title: "DAT 204"
+author: "Kayla"
+date: "December 8, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Final
+DAT 204 Final
+
+For the final project, I analyzed a dataset of patient information across four Kane facilities in Allegheny County. This dataset was downloaded from the Western PA Regional Data Center, which describes the dataset as "Total number of residents in each Kane Regional Center facility by race and gender. The Kane Regional Centers are skilled nursing and rehabilitation centers run by Allegheny County."
+
+```{r}
+# import librarbies for future use 
+library(stringr)
+library(ggplot2)
+
+# read in csv file 
+kane <- read.csv("kane.csv", stringsAsFactors=FALSE)
+head(kane)
+```
+```{r}
+pat <- (kane$patient_count) #pull out patients into vector
+
+#  let's run some statistics on patients across all facilities 
+mean <- mean(pat, na.rm = TRUE)
+median <- median(pat, na.rm = TRUE)
+max <- max(pat, na.rm = TRUE)
+min <- min(pat, na.rm = TRUE)
+
+print(mean)
+print(median)
+print(max)
+print(min)
+
+```
+```{r}
+# pull out number of facilities 
+facilities <- unique(kane$facility)
+facilities # there are four facilities in the dataframe 
+
+# Create a dataframe for each facility by creatign a T/F vector and applying to 
+# the dataframe 
+
+fac1_tf <- str_detect(kane$facility, "1")
+fac1 <- kane[fac1_tf, ]
+# head(fac1)
+
+fac2_tf <- str_detect(kane$facility, "2")
+fac2 <- kane[fac2_tf, ]
+
+fac3_tf <- str_detect(kane$facility, "3")
+fac3 <- kane[fac3_tf, ]
+
+fac4_tf <- str_detect(kane$facility, "4")
+fac4 <- kane[fac4_tf, ]
+```
+```{r}
+avg_patient <- c(mean(fac1$patient_count, na.rm = TRUE), mean(fac2$patient_count, na.rm = TRUE), mean(fac3$patient_count, na.rm = TRUE), mean(fac4$patient_count, na.rm = TRUE))
+
+avg_patient # average patient counts for each facility
+
+max(avg_patient) # Facility 3 had the most patients, on average
+
+df <- data.frame("Facilities" = facilities, "Average_Patients" = avg_patient)
+head(df)
+```
+
+```{r}
+
+```
+
+```{r}
+ggplot(kane, aes(month, patient_count)) 
+
+```
+
+```{r}
+# female_tf <- str_detect(kane$gender, 'F')
+# female_df <- kane[gender_tf, ]
+# head(gender_df)
+
+facilities <- unique(kane$facility)
+
+female_vec <- vector()
+
+for (facility in facilities){
+  fem_count <- sum(kane[kane$gender == 'F' & kane$facility == facility, 'patient_count'])
+  
+  female_vec <- c(female_vec, fem_count)
+}
+
+female_vec
+
+
+
+```
+
+
+```
+
+```{r}
+demo <- unique(kane$gender_race_group)
+#demo
+
+
+```
+

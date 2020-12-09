@@ -60,11 +60,60 @@ library('ggplot2')
 ggplot(data = doodle_rosie_df, aes(x=Color))+
   geom_bar(color="black", fill="lightgoldenrod2")
 ```
-## Rosalies! (Or lack thereof ...)
 
+
+
+## Rosalies! (Or lack thereof ...)
 My Rosie's full name is Rosalie, but she lives in Washington County with my parents. I decided to see if she has an Allegheny County counterpart. First, I created a true/false vector to check the original dataset for dogs named Rosalie. 
 ```{r}
 rosalie_tf <- str_detect(allegheny_county_dog_licenses$DogName, "ROSALIE") #pull out dogs named Rosalie 
 sum(rosalie_tf)
 ```
- There are no dogs in Allegheny County names Rosalie! My Rosie is [truly unique](https://www.instagram.com/rosaliethedoodle/)
+ There are no dogs in Allegheny County names Rosalie! My Rosie is [truly unique](https://www.instagram.com/rosaliethedoodle/).
+ 
+ 
+## Lhasa Apso Data!
+Next, I decided to look at data for dogs that are a Lhasa Apso mix. My family had a loyal little Lhasa Apso Poodle mix named [Oreo](https://www.instagram.com/p/B9mC0uvhBk5/) for 15 years. 
+
+```{r}
+# Pull out all the Lhasa Apso mixes
+lhasa_mix_tf <- str_detect(allegheny_county_dog_licenses$Breed, "LHASA APSO MIX")
+sum(lhasa_mix_tf) # there are 21 Lhasa Apso mixes
+lhasa_mix_df <- allegheny_county_dog_licenses[lhasa_mix_tf,]
+```
+## Fun with Names! 
+
+With such a small dataframe, let's look at their names 
+```{r}
+lhasa_mix_names <- unique(lhasa_mix_df$DogName) # pull out unique names into a vector
+lhasa_mix_names
+length(lhasa_mix_names)
+```
+There are 21 Lhasa Apso mixes in Allegheny County and when we run unique on the DogName column, we get 21 names. This means each Lhasa Apso mix in Allegheny County has a unique name. While this is cute, we can't plot much with this. So, let's look at something else! Instead, I will compare Lhasa Apsos and Lhasa Apso mixes. 
+
+```{r}
+# pull out all dog breeds with "Lhasa" in the breed name 
+all_lhasas_tf <- str_detect(allegheny_county_dog_licenses$Breed, "LHASA")
+sum(all_lhasas_tf)
+
+# pull all Lhasas into a dataframe 
+all_lhasas_df <- allegheny_county_dog_licenses[all_lhasas_tf,]
+all_lhasas_df
+
+
+```
+## Let's plot!
+Now we have both purebred Lhasa Apsos and Lhasa Apso mixes in a data frame. 
+
+
+```{r}
+
+ggplot(data = all_lhasas_df, aes(x=Breed))+
+  geom_bar(color="black", fill="mediumorchid2")+
+  ggtitle("Lhasa Apsos - Purebreds vs Mixes")+
+  ylab("Total")
+
+```
+
+
+Obviously, we have a lot more purebred Lhasa Apso dogs than mixes in Allegheny County! 
