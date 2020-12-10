@@ -16,6 +16,8 @@ for (breed in breeds) {
   count <- sum(allegheny_county_dog_licenses$Breed == breed)
   breed_counts <- c(breed_counts, count)
 }
+
+breed_counts
 # names(breed_counts) <- breeds
 
 # breed_counts <- sort(breed_counts, decreasing=TRUE)

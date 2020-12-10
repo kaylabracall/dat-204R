@@ -78,11 +78,11 @@ head(df)
 ggplot(kane, aes(month, patient_count)) 
 
 ```
+## Let's Look at Demographics
+Next, we will examine the demographics of the facilities. 
+
 
 ```{r}
-# female_tf <- str_detect(kane$gender, 'F')
-# female_df <- kane[gender_tf, ]
-# head(gender_df)
 
 facilities <- unique(kane$facility)
 
@@ -96,7 +96,7 @@ for (facility in facilities){
 
 female_vec
 
-
+sum(female_vec)
 
 ```
 

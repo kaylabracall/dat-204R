@@ -1,0 +1,417 @@
+stname,tractfips,Tract_2000,Tract_2010,municipality,city_neighborhood,est_obesity_rate,is_pittsburgh
+Pennsylvania,42003010300,10300,,Pittsburgh  ,Bluff,0.246935849,1
+Pennsylvania,42003020100,20100,,Pittsburgh  ,Central Business District,0.668012041,1
+Pennsylvania,42003020300,20300,,Pittsburgh  ,Strip District,0.369996439,1
+Pennsylvania,42003030500,30500,,Pittsburgh  ,Crawford Roberts,0.488690884,1
+Pennsylvania,42003040200,40200,,Pittsburgh  ,West oakland,0.366390731,1
+Pennsylvania,42003040400,40400,,Pittsburgh  ,North oakland,0.155867454,1
+Pennsylvania,42003040500,40500,,Pittsburgh  ,Central Oakland,0.112780394,1
+Pennsylvania,42003040600,40600,,Pittsburgh  ,Central Oakland,0.144556151,1
+Pennsylvania,42003040900,40900,,Pittsburgh  ,South Oakland,0.281331416,1
+Pennsylvania,42003050100,50100,,Pittsburgh  ,Middle Hill,0.608099152,1
+Pennsylvania,42003050600,50600,,Pittsburgh  ,Upper Hill,0.455786185,1
+Pennsylvania,42003050900,50900,,Pittsburgh  ,Bedford Dwellings,0.636222228,1
+Pennsylvania,42003051000,51000,,Pittsburgh  ,Terrace Village,0.555072799,1
+Pennsylvania,42003051100,51100,,Pittsburgh  ,Terrace Village,0.793133039,1
+Pennsylvania,42003060300,60300,,Pittsburgh  ,Lower Lawrenceville,0.319568655,1
+Pennsylvania,42003060500,60500,,Pittsburgh  ,Polish Hill,0.320700606,1
+Pennsylvania,42003070300,70300,,Pittsburgh  ,Shadyside,0.128451261,1
+Pennsylvania,42003070500,70500,,Pittsburgh  ,Shadyside,0.130383004,1
+Pennsylvania,42003070600,70600,,Pittsburgh  ,Shadyside,0.11853283,1
+Pennsylvania,42003070800,70800,,Pittsburgh  ,Shadyside,0.134519846,1
+Pennsylvania,42003070900,70900,,Pittsburgh  ,Shadyside,0.1267053,1
+Pennsylvania,42003080200,80200,,Pittsburgh  ,Bloomfield,0.281425391,1
+Pennsylvania,42003080400,80400,,Pittsburgh  ,Bloomfield,0.185609561,1
+Pennsylvania,42003080600,80600,,Pittsburgh  ,Bloomfield,0.181223911,1
+Pennsylvania,42003080700,80700,,Pittsburgh  ,Friendship,0.220125706,1
+Pennsylvania,42003080900,80900,,Pittsburgh  ,Bloomfield,0.233013709,1
+Pennsylvania,42003090100,90100,,Pittsburgh  ,Central Lawrenceville,0.298582516,1
+Pennsylvania,42003090200,90200,,Pittsburgh  ,Central Lawrenceville,0.287296375,1
+Pennsylvania,42003090300,90300,,Pittsburgh  ,Bloomfield,0.280485189,1
+Pennsylvania,42003100500,100500,,Pittsburgh  ,Stanton Heights,0.366929026,1
+Pennsylvania,42003101100,101100,,Pittsburgh  ,Upper Lawrenceville,0.33469413,1
+Pennsylvania,42003101400,101400,,Pittsburgh  ,Morningside,0.275901608,1
+Pennsylvania,42003101600,101600,,Pittsburgh  ,Garfield,0.576886305,1
+Pennsylvania,42003101700,101700,,Pittsburgh  ,Garfield,0.45057975,1
+Pennsylvania,42003101800,101800,,Pittsburgh  ,Stanton Heights,0.28363609,1
+Pennsylvania,42003110200,110200,,Pittsburgh  ,Highland Park,0.243037233,1
+Pennsylvania,42003110600,110600,,Pittsburgh  ,Highland Park,0.217419795,1
+Pennsylvania,42003111300,111300,,Pittsburgh  ,East Liberty,0.414946833,1
+Pennsylvania,42003111400,111400,,Pittsburgh  ,Garfield,0.547886004,1
+Pennsylvania,42003111500,111500,,Pittsburgh  ,East Liberty,0.445041326,1
+Pennsylvania,42003120400,120400,,Pittsburgh  ,Larimer,0.560447807,1
+Pennsylvania,42003120700,120700,,Pittsburgh  ,Homewood West,0.565709871,1
+Pennsylvania,42003120800,120800,,Pittsburgh  ,Larimer,0.47467107,1
+Pennsylvania,42003130100,130100,,Pittsburgh  ,Homewood North,0.619584038,1
+Pennsylvania,42003130200,130200,,Pittsburgh  ,Homewood North,0.573265754,1
+Pennsylvania,42003130300,130300,,Pittsburgh  ,Homewood South,0.558808603,1
+Pennsylvania,42003130400,130400,,Pittsburgh  ,Homewood South,0.660584734,1
+Pennsylvania,42003130600,130600,,Pittsburgh  ,East Hills,0.562136738,1
+Pennsylvania,42003140100,140100,,Pittsburgh  ,Squirrel Hill North,0.080288025,1
+Pennsylvania,42003140200,140200,,Pittsburgh  ,Squirrel Hill North,0.134710419,1
+Pennsylvania,42003140300,140300,,Pittsburgh  ,Squirrel Hill North,0.162825512,1
+Pennsylvania,42003140400,140400,,Pittsburgh  ,Point Breeze,0.148783612,1
+Pennsylvania,42003140500,140500,,Pittsburgh  ,Point Breeze North,0.357949761,1
+Pennsylvania,42003140600,140600,,Pittsburgh  ,Point Breeze,0.1862044,1
+Pennsylvania,42003140800,140800,,Pittsburgh  ,Squirrel Hill South,0.159693253,1
+Pennsylvania,42003141000,141000,,Pittsburgh  ,Regent Square,0.160133394,1
+Pennsylvania,42003141100,141100,,Pittsburgh  ,Swisshelm Park,0.24942228,1
+Pennsylvania,42003141300,141300,,Pittsburgh  ,Squirrel Hill South,0.164995723,1
+Pennsylvania,42003141400,141400,,Pittsburgh  ,Squirrel Hill South,0.194095224,1
+Pennsylvania,42003151500,151500,562900,Pittsburgh  ,Hazelwood,0.399853175,1
+Pennsylvania,42003151600,151600,,Pittsburgh  ,Greenfield,0.296249604,1
+Pennsylvania,42003151700,151700,,Pittsburgh  ,Greenfield,0.230732413,1
+Pennsylvania,42003160800,160800,,Pittsburgh  ,Southside Slopes,0.303620654,1
+Pennsylvania,42003160900,160900,,Pittsburgh  ,Southside Flats,0.250236692,1
+Pennsylvania,42003170200,170200,,Pittsburgh  ,Southside Flats,0.244124264,1
+Pennsylvania,42003170600,170600,,Pittsburgh  ,Southside Slopes,0.276238992,1
+Pennsylvania,42003180300,180300,,Pittsburgh  ,Allentown,0.353924826,1
+Pennsylvania,42003180700,180700,,Pittsburgh  ,Mount Washington,0.284661545,1
+Pennsylvania,42003190300,190300,,Pittsburgh  ,Mount Washington,0.239971797,1
+Pennsylvania,42003191100,191100,,Pittsburgh  ,Duquesne Heights,0.248010116,1
+Pennsylvania,42003191400,191400,,Pittsburgh  ,Mount Washington,0.264857444,1
+Pennsylvania,42003191500,191500,,Pittsburgh  ,Mount Washington,0.283163115,1
+Pennsylvania,42003191600,191600,,Pittsburgh  ,Beechview,0.295784557,1
+Pennsylvania,42003191700,191700,,Pittsburgh  ,Brookline,0.288113416,1
+Pennsylvania,42003191800,191800,,Pittsburgh  ,Brookline,0.271680325,1
+Pennsylvania,42003191900,191900,,Pittsburgh  ,Brookline,0.281736013,1
+Pennsylvania,42003192000,192000,,Pittsburgh  ,Beechview,0.281814181,1
+Pennsylvania,42003202200,202200,,Pittsburgh  ,Sheraden,0.308735055,1
+Pennsylvania,42003202300,202300,,Pittsburgh  ,Banksville,0.239786459,1
+Pennsylvania,42003210700,210700,,Pittsburgh  ,Manchester,0.498043254,1
+Pennsylvania,42003220600,220600,,Pittsburgh  ,Central Northside,0.397141353,1
+Pennsylvania,42003240600,240600,,Pittsburgh  ,Troy Hill/Herr's Island,0.311833933,1
+Pennsylvania,42003241200,241200,,Pittsburgh  ,Spring Garden,0.311407872,1
+Pennsylvania,42003250300,250300,,Pittsburgh  ,Central Northside,0.487120872,1
+Pennsylvania,42003250700,250700,,Pittsburgh  ,California Kirkbride,0.771046408,1
+Pennsylvania,42003250900,250900,,Pittsburgh  ,Fineview,0.499128646,1
+Pennsylvania,42003260200,260200,,Pittsburgh  ,Perry North,0.315350013,1
+Pennsylvania,42003260700,260700,,Pittsburgh  ,Perry North,0.327274513,1
+Pennsylvania,42003260900,260900,,Pittsburgh  ,Northview Heights,0.92293244,1
+Pennsylvania,42003261200,261200,,Pittsburgh  ,Summer Hill,0.302258313,1
+Pennsylvania,42003261400,261400,,Pittsburgh  ,Perry South,0.495056886,1
+Pennsylvania,42003261500,261500,,Pittsburgh  ,Perry South,0.411792085,1
+Pennsylvania,42003262000,262000,,Pittsburgh  ,Spring Hill-Cityview,0.335105173,1
+Pennsylvania,42003270100,270100,,Pittsburgh  ,Brighton Heights,0.297589356,1
+Pennsylvania,42003270300,270300,,Pittsburgh  ,Brighton Heights,0.295852594,1
+Pennsylvania,42003270400,270400,,Pittsburgh  ,Marshall-Shadeland,0.606853235,1
+Pennsylvania,42003270800,270800,,Pittsburgh  ,Brighton Heights,0.292287303,1
+Pennsylvania,42003271500,271500,,Pittsburgh  ,Marshall-Shadeland,0.353353216,1
+Pennsylvania,42003281400,281400,,Pittsburgh  ,Crafton Heights,0.344212543,1
+Pennsylvania,42003281500,281500,,Pittsburgh  ,Crafton Heights,0.293820022,1
+Pennsylvania,42003290100,290100,,Pittsburgh  ,Carrick,0.307687359,1
+Pennsylvania,42003290200,290200,,Pittsburgh  ,Carrick,0.310517328,1
+Pennsylvania,42003290400,290400,,Pittsburgh  ,Carrick,0.296869432,1
+Pennsylvania,42003300100,300100,,Pittsburgh  ,Knoxville,0.390726631,1
+Pennsylvania,42003310200,310200,,Pittsburgh  ,Lincoln Place,0.308693843,1
+Pennsylvania,42003310300,310300,,Pittsburgh  ,New Homestead,0.316983455,1
+Pennsylvania,42003320400,320400,,Pittsburgh  ,Overbrook,0.310046649,1
+Pennsylvania,42003320600,320600,,Pittsburgh  ,Brookline,0.279139614,1
+Pennsylvania,42003320700,320700,,Pittsburgh  ,Overbrook,0.294503447,1
+Pennsylvania,42003401100,401100,,Harrison  ,,0.287400559,0
+Pennsylvania,42003401200,401200,,Harrison  ,,0.319547136,0
+Pennsylvania,42003401300,401300,,Harrison  ,,0.277777399,0
+Pennsylvania,42003402000,402000,,Brackenridge ,,0.293869863,0
+Pennsylvania,42003403500,403500,,Tarentum ,,0.301383809,0
+Pennsylvania,42003404000,404000,,East Deer  ,,0.285544851,0
+Pennsylvania,42003405000,405000,,Frazer  ,,0.302236384,0
+Pennsylvania,42003406000,406000,,Fawn  ,,0.297646987,0
+Pennsylvania,42003407001,407001,,West Deer  ,,0.295120457,0
+Pennsylvania,42003407002,407002,,West Deer  ,,0.24920572,0
+Pennsylvania,42003408001,408001,,Richland  ,,0.241090845,0
+Pennsylvania,42003408002,408002,,Richland  ,,0.229468598,0
+Pennsylvania,42003409000,409000,,Pine  ,,0.186492832,0
+Pennsylvania,42003410000,410000,,Bradford Woods ,,0.169647079,0
+Pennsylvania,42003411000,411000,,Marshall  ,,0.168018771,0
+Pennsylvania,42003412001,412001,,Franklin Park ,,0.18523749,0
+Pennsylvania,42003412002,412002,,Franklin Park ,,0.180747833,0
+Pennsylvania,42003413100,413100,,McCandless  ,,0.184320312,0
+Pennsylvania,42003413201,413201,,McCandless  ,,0.217441036,0
+Pennsylvania,42003413202,413202,,McCandless  ,,0.209900075,0
+Pennsylvania,42003413300,413300,,McCandless  ,,0.226590277,0
+Pennsylvania,42003413400,413400,,McCandless  ,,0.199769233,0
+Pennsylvania,42003413500,413500,,McCandless  ,,0.22090451,0
+Pennsylvania,42003414101,414101,,Hampton  ,,0.225529666,0
+Pennsylvania,42003414102,414102,,Hampton  ,,0.229246436,0
+Pennsylvania,42003414200,414200,,Hampton  ,,0.221216893,0
+Pennsylvania,42003415001,415001,,Indiana  ,,0.253933139,0
+Pennsylvania,42003415002,415002,,Indiana  ,,0.228948162,0
+Pennsylvania,42003416000,416000,,Springdale  ,,0.299291762,0
+Pennsylvania,42003417100,417100,,Springdale ,,0.300268288,0
+Pennsylvania,42003417200,417200,,Springdale ,,0.299905661,0
+Pennsylvania,42003418000,418000,,Cheswick ,,0.275244316,0
+Pennsylvania,42003419000,419000,,Harmar  ,,0.281508479,0
+Pennsylvania,42003420000,420000,,Blawnox ,,0.256566085,0
+Pennsylvania,42003421100,421100,,O'Hara  ,,0.20881598,0
+Pennsylvania,42003421200,421200,,O'Hara  ,,0.204272327,0
+Pennsylvania,42003422000,422000,,Fox Chapel ,,0.144489801,0
+Pennsylvania,42003423000,423000,,Aspinwall ,,0.196464215,0
+Pennsylvania,42003424000,424000,,Sharpsburg ,,0.300086701,0
+Pennsylvania,42003425000,425000,,Etna ,,0.279191196,0
+Pennsylvania,42003426300,426300,,Shaler  ,,0.260053481,0
+Pennsylvania,42003426400,426400,,Shaler  ,,0.261909163,0
+Pennsylvania,42003426700,426700,,Millvale ,,0.251654138,0
+Pennsylvania,42003426800,426800,,Shaler  ,,0.256507232,0
+Pennsylvania,42003427000,427000,,Shaler  ,,0.30979523,0
+Pennsylvania,42003427100,427100,,Shaler  ,,0.259363806,0
+Pennsylvania,42003427200,427200,,Shaler  ,,0.294905805,0
+Pennsylvania,42003428100,428100,,Reserve  ,,0.295929631,0
+Pennsylvania,42003428200,428200,,Reserve  ,,0.298014815,0
+Pennsylvania,42003429100,429100,,Ross  ,,0.246798792,0
+Pennsylvania,42003429201,429201,,Ross  ,,0.216467265,0
+Pennsylvania,42003429202,429202,,Ross  ,,0.231577996,0
+Pennsylvania,42003429300,429300,,Ross  ,,0.259079609,0
+Pennsylvania,42003429400,429400,,Ross  ,,0.249928487,0
+Pennsylvania,42003429500,429500,,Ross  ,,0.244087567,0
+Pennsylvania,42003429600,429600,,Ross  ,,0.247170356,0
+Pennsylvania,42003429700,429700,,Ross  ,,0.284032198,0
+Pennsylvania,42003430100,430100,,West View ,,0.256048622,0
+Pennsylvania,42003430200,430200,,West View ,,0.265307399,0
+Pennsylvania,42003431100,431100,,Bellevue ,,0.269698291,0
+Pennsylvania,42003431400,431400,,Bellevue ,,0.265042796,0
+Pennsylvania,42003431500,431500,,Bellevue ,,0.268247858,0
+Pennsylvania,42003432300,432300,,Avalon ,,0.282805184,0
+Pennsylvania,42003432400,432400,,Avalon ,,0.282743448,0
+Pennsylvania,42003434000,434000,,Ben Avon ,,0.201778543,0
+Pennsylvania,42003435000,435000,,Emsworth ,,0.252509848,0
+Pennsylvania,42003437000,437000,,Ohio  ,,0.210425186,0
+Pennsylvania,42003439000,439000,,Bell Acres ,,0.25172106,0
+Pennsylvania,42003445500,445500,,Sewickley ,,0.236936226,0
+Pennsylvania,42003446000,446000,,Edgeworth ,,0.150777567,0
+Pennsylvania,42003447000,447000,,Leet  ,,0.254156656,0
+Pennsylvania,42003448000,448000,,Leetsdale ,,0.287161824,0
+Pennsylvania,42003449000,449000,,Crescent  ,,0.288332458,0
+Pennsylvania,42003450700,450700,,Coraopolis ,,0.281856356,0
+Pennsylvania,42003450800,450800,,Coraopolis ,,0.319853211,0
+Pennsylvania,42003451102,451101,,Moon  ,,0.224635265,0
+Pennsylvania,42003451102,451102,,Moon  ,,0.258520745,0
+Pennsylvania,42003451103,451103,451104 & 451105,Moon  ,,0.240861593,0
+Pennsylvania,42003452000,451300,,Moon  ,,0.224289129,0
+Pennsylvania,42003453001,453001,453003 & 463004,North Fayette  ,,0.205551495,0
+Pennsylvania,42003453003,452000,,Findlay  ,,0.277575149,0
+Pennsylvania,42003455000,455000,,Oakdale ,,0.297605976,0
+Pennsylvania,42003456001,456001,,South Fayette  ,,0.24822681,0
+Pennsylvania,42003456003,456003,,South Fayette  ,,0.248328663,0
+Pennsylvania,42003456004,456004,,South Fayette  ,,0.238048934,0
+Pennsylvania,42003457100,457100,,Bridgeville ,,0.288572503,0
+Pennsylvania,42003457200,457200,,Bridgeville ,,0.278822113,0
+Pennsylvania,42003458000,458000,,Collier  ,,0.281623751,0
+Pennsylvania,42003459101,459101,,Robinson  ,,0.280461054,0
+Pennsylvania,42003459102,459102,,Robinson  ,,0.245685092,0
+Pennsylvania,42003459201,459201,,Robinson  ,,0.235759791,0
+Pennsylvania,42003459202,459202,,Pennsbury Village ,,0.173870245,0
+Pennsylvania,42003460001,460001,,Kennedy  ,,0.277756162,0
+Pennsylvania,42003460002,460002,,Kennedy  ,,0.282831081,0
+Pennsylvania,42003461000,461000,,Neville  ,,0.290218333,0
+Pennsylvania,42003462100,462100,,Stowe  ,,0.317742265,0
+Pennsylvania,42003462600,462600,,Stowe  ,,0.30465547,0
+Pennsylvania,42003463900,463900,,McKees Rocks ,,0.305836946,0
+Pennsylvania,42003464300,464300,,Ingram ,,0.284627141,0
+Pennsylvania,42003464400,464400,,McKees Rocks ,,0.36654976,0
+Pennsylvania,42003465600,465600,,Crafton ,,0.272410691,0
+Pennsylvania,42003465800,465800,,Crafton ,,0.246274112,0
+Pennsylvania,42003468700,468700,,Carnegie ,,0.293042609,0
+Pennsylvania,42003468800,468800,,Carnegie ,,0.293161169,0
+Pennsylvania,42003468900,468900,,Carnegie ,,0.283629399,0
+Pennsylvania,42003469000,469000,,Greentree ,,0.25323124,0
+Pennsylvania,42003470300,470300,,Scott  ,,0.248136885,0
+Pennsylvania,42003470400,470400,,Scott  ,,0.259458042,0
+Pennsylvania,42003470501,470500,470501 & 470502,Scott  ,,0.209268322,0
+Pennsylvania,42003470600,470600,,Scott  ,,0.282315192,0
+Pennsylvania,42003471000,471000,,Heidelberg ,,0.283627226,0
+Pennsylvania,42003472100,472100,,Dormnt ,,0.261751274,0
+Pennsylvania,42003472200,472200,,Dormnt ,,0.232519538,0
+Pennsylvania,42003472300,472300,,Dormnt ,,0.240211523,0
+Pennsylvania,42003472400,472400,,Dormnt ,,0.260487087,0
+Pennsylvania,42003473100,473100,,MT Lebanon  ,,0.181867304,0
+Pennsylvania,42003473200,473200,,MT Lebanon  ,,0.188263123,0
+Pennsylvania,42003473300,473300,,MT Lebanon  ,,0.186378523,0
+Pennsylvania,42003473401,473401,,MT Lebanon  ,,0.174953973,0
+Pennsylvania,42003473402,473402,,MT Lebanon  ,,0.188359755,0
+Pennsylvania,42003473500,473500,,MT Lebanon  ,,0.145972561,0
+Pennsylvania,42003473601,473601,,MT Lebanon  ,,0.174779251,0
+Pennsylvania,42003473602,473602,,MT Lebanon  ,,0.205275743,0
+Pennsylvania,42003474101,474101,,Upper St. Clair  ,,0.188035081,0
+Pennsylvania,42003474102,474102,,Upper St. Clair  ,,0.148540756,0
+Pennsylvania,42003474201,474201,,Upper St. Clair  ,,0.181177141,0
+Pennsylvania,42003474202,474202,,Upper St. Clair  ,,0.169378578,0
+Pennsylvania,42003474203,474203,,Upper St. Clair  ,,0.178623345,0
+Pennsylvania,42003475101,475101,,Bethel Park Muni,,0.253670044,0
+Pennsylvania,42003475102,475102,,Bethel Park Muni,,0.240148198,0
+Pennsylvania,42003475200,475200,,Bethel Park Muni,,0.226594614,0
+Pennsylvania,42003475301,475301,,Bethel Park Muni,,0.26052301,0
+Pennsylvania,42003475303,475303,,Bethel Park Muni,,0.224079369,0
+Pennsylvania,42003475304,475304,,Bethel Park Muni,,0.197273985,0
+Pennsylvania,42003475401,475401,,Bethel Park Muni,,0.26004664,0
+Pennsylvania,42003475402,475402,,Bethel Park Muni,,0.223226611,0
+Pennsylvania,42003476100,476100,,Castle Shannon ,,0.255666236,0
+Pennsylvania,42003476200,476200,,Castle Shannon ,,0.271406967,0
+Pennsylvania,42003477100,477100,,Whitehall ,,0.247258718,0
+Pennsylvania,42003477200,477200,,Whitehall ,,0.256245906,0
+Pennsylvania,42003477300,477300,,Whitehall ,,0.262484539,0
+Pennsylvania,42003478100,478100,,Brentwood ,,0.267324744,0
+Pennsylvania,42003478200,478200,,Brentwood ,,0.267670908,0
+Pennsylvania,42003479000,479000,,Baldwin  ,,0.280389172,0
+Pennsylvania,42003480101,480101,,Baldwin ,,0.286839393,0
+Pennsylvania,42003480102,480102,,Baldwin ,,0.283085933,0
+Pennsylvania,42003480200,480200,,Baldwin ,,0.287059439,0
+Pennsylvania,42003480300,480300,,Baldwin ,,0.28046245,0
+Pennsylvania,42003480400,480400,,Baldwin ,,0.298826366,0
+Pennsylvania,42003481000,481000,,Mount Oliver ,,0.337537049,0
+Pennsylvania,42003482500,482500,,West Homestead ,,0.30387295,0
+Pennsylvania,42003483800,483800,,Homestead ,,0.387744909,0
+Pennsylvania,42003484300,484300,,Munhall ,,0.305174675,0
+Pennsylvania,42003484500,484500,,Munhall ,,0.288379612,0
+Pennsylvania,42003484600,484600,,Munhall ,,0.292934088,0
+Pennsylvania,42003485000,485000,,Whitaker ,,0.306421721,0
+Pennsylvania,42003486700,486700,,Duquesne  ,,0.409565992,0
+Pennsylvania,42003486800,486800,,Duquesne  ,,0.378409753,0
+Pennsylvania,42003486900,486900,,Duquesne  ,,0.424884971,0
+Pennsylvania,42003487000,487000,,Dravosburg ,,0.302538576,0
+Pennsylvania,42003488100,488100,,West Mifflin ,,0.317716845,0
+Pennsylvania,42003488200,488200,,West Mifflin ,,0.33719754,0
+Pennsylvania,42003488300,488300,,West Mifflin ,,0.281383174,0
+Pennsylvania,42003488400,488400,,West Mifflin ,,0.299858439,0
+Pennsylvania,42003488500,488500,,West Mifflin ,,0.292163631,0
+Pennsylvania,42003488600,488600,,West Mifflin ,,0.306069695,0
+Pennsylvania,42003489001,489001,,Pleasant Hills ,,0.249617439,0
+Pennsylvania,42003489002,489002,,Pleasant Hills ,,0.227286103,0
+Pennsylvania,42003490002,490002,,South Park  ,,0.278973254,0
+Pennsylvania,42003490003,490003,,South Park  ,,0.273803519,0
+Pennsylvania,42003490004,490004,,South Park  ,,0.257085709,0
+Pennsylvania,42003491101,491101,,Jefferson Hills ,,0.227793929,0
+Pennsylvania,42003491200,491200,,Jefferson Hills ,,0.292331409,0
+Pennsylvania,42003492700,492700,,Clairton  ,,0.304808095,0
+Pennsylvania,42003492800,492800,,Clairton  ,,0.399328437,0
+Pennsylvania,42003492900,492900,,Clairton  ,,0.313123878,0
+Pennsylvania,42003494000,494000,,Elizabeth ,,0.302875198,0
+Pennsylvania,42003495000,495000,,Forward  ,,0.302800944,0
+Pennsylvania,42003496101,496101,,Elizabeth  ,,0.290509465,0
+Pennsylvania,42003496102,496102,,Elizabeth  ,,0.303947196,0
+Pennsylvania,42003496200,496200,,Elizabeth  ,,0.274080908,0
+Pennsylvania,42003497000,497000,,Lincoln ,,0.310625678,0
+Pennsylvania,42003498000,498000,,Liberty ,,0.300588757,0
+Pennsylvania,42003499300,499300,,Glassport ,,0.299245703,0
+Pennsylvania,42003499400,499400,,Glassport ,,0.30618199,0
+Pennsylvania,42003500300,500300,,Port Vue ,,0.303149387,0
+Pennsylvania,42003501000,501000,,Versailles ,,0.293406051,0
+Pennsylvania,42003503002,503002,,White Oak ,,0.266622644,0
+Pennsylvania,42003504100,504100,,North Versailles  ,,0.322758854,0
+Pennsylvania,42003507000,507000,,East McKeesport ,,0.297379341,0
+Pennsylvania,42003508000,508000,,Wilmerding ,,0.299365953,0
+Pennsylvania,42003509400,509400,,Turtle Creek ,,0.287970651,0
+Pennsylvania,42003510000,510000,,East Pittsburgh ,,0.337281449,0
+Pennsylvania,42003512000,512000,,North Braddock ,,0.324396263,0
+Pennsylvania,42003512800,512800,,North Braddock ,,0.41438381,0
+Pennsylvania,42003512900,512900,,North Braddock ,,0.431658948,0
+Pennsylvania,42003513800,513800,,Braddock ,,0.482442708,0
+Pennsylvania,42003514000,514000,,Rankin ,,0.454089592,0
+Pennsylvania,42003515100,515100,,Swissvale ,,0.351186825,0
+Pennsylvania,42003515200,515200,,Swissvale ,,0.27628363,0
+Pennsylvania,42003515300,515300,,Swissvale ,,0.335109797,0
+Pennsylvania,42003515401,515400,5154.01,Swissvale ,,0.263372026,0
+Pennsylvania,42003515401,515500,5154.01,Swissvale ,,0.166940808,0
+Pennsylvania,42003516100,516100,,Edgewood ,,0.199533325,0
+Pennsylvania,42003516200,516200,,Edgewood ,,0.189226318,0
+Pennsylvania,42003517000,517000,,Braddock Hills ,,0.311349755,0
+Pennsylvania,42003518001,518001,,Forest Hills ,,0.206929818,0
+Pennsylvania,42003519000,519000,,Churchill ,,0.20718432,0
+Pennsylvania,42003520001,520001,,Wilkins  ,,0.259436488,0
+Pennsylvania,42003520002,520002,,Wilkins  ,,0.265713436,0
+Pennsylvania,42003521100,521100,,Monroeville Muni,,0.292862169,0
+Pennsylvania,42003521200,521200,,Monroeville Muni,,0.239349268,0
+Pennsylvania,42003521301,521301,,Monroeville Muni,,0.23327395,0
+Pennsylvania,42003521302,521302,,Monroeville Muni,,0.247892241,0
+Pennsylvania,42003521401,521401,,Monroeville Muni,,0.256653428,0
+Pennsylvania,42003521402,521402,,Monroeville Muni,,0.217399796,0
+Pennsylvania,42003521500,521500,,Monroeville Muni,,0.262960639,0
+Pennsylvania,42003522000,522000,,Pitcairn ,,0.304231081,0
+Pennsylvania,42003523100,523100,,Penn Hills  ,,0.501530483,0
+Pennsylvania,42003523200,523200,,Penn Hills  ,,0.352730978,0
+Pennsylvania,42003523300,523300,,Penn Hills  ,,0.279977637,0
+Pennsylvania,42003523400,523400,,Penn Hills  ,,0.299321709,0
+Pennsylvania,42003523501,523501,,Penn Hills  ,,0.335680107,0
+Pennsylvania,42003523502,523502,,Penn Hills  ,,0.306756772,0
+Pennsylvania,42003523600,523600,,Penn Hills  ,,0.282028897,0
+Pennsylvania,42003523701,523701,,Penn Hills  ,,0.301917321,0
+Pennsylvania,42003523702,523702,,Penn Hills  ,,0.305211406,0
+Pennsylvania,42003523800,523800,,Penn Hills  ,,0.281781021,0
+Pennsylvania,42003524000,524000,,Verona ,,0.321492884,0
+Pennsylvania,42003525100,525100,,Oakmont ,,0.222354623,0
+Pennsylvania,42003525200,525200,,Oakmont ,,0.249598493,0
+Pennsylvania,42003525300,525300,,Oakmont ,,0.228409496,0
+Pennsylvania,42003526101,526101,,Plum ,,0.258876178,0
+Pennsylvania,42003526102,526102,,Plum ,,0.275764706,0
+Pennsylvania,42003526201,526201,,Plum ,,0.278563448,0
+Pennsylvania,42003526202,526202,,Plum ,,0.27189195,0
+Pennsylvania,42003526301,526301,,Plum ,,0.275220298,0
+Pennsylvania,42003526302,526302,,Plum ,,0.225703486,0
+Pennsylvania,42003550900,550900,,Mckeesport  ,,0.428708153,0
+Pennsylvania,42003551200,551200,,Mckeesport  ,,0.383108866,0
+Pennsylvania,42003551300,551300,,Mckeesport  ,,0.289979283,0
+Pennsylvania,42003551900,551900,,Mckeesport  ,,0.431124763,0
+Pennsylvania,42003552000,552000,,Mckeesport  ,,0.337149024,0
+Pennsylvania,42003552100,552100,,Mckeesport  ,,0.388907896,0
+Pennsylvania,42003552200,552200,,Mckeesport  ,,0.30356836,0
+Pennsylvania,42003552300,552300,,Mckeesport  ,,0.478169583,0
+Pennsylvania,42003552400,552400,,Mckeesport  ,,0.302839291,0
+Pennsylvania,42003560400,560400,,Wilkinsburg ,,0.437485158,0
+Pennsylvania,42003560500,560500,,Wilkinsburg ,,0.224347178,0
+Pennsylvania,42003560600,560600,,Wilkinsburg ,,0.524226161,0
+Pennsylvania,42003561000,561000,,Wilkinsburg ,,0.496650446,0
+Pennsylvania,42003561100,561100,,Wilkinsburg ,,0.60500279,0
+Pennsylvania,42003561200,561200,,Wilkinsburg ,,0.506953468,0
+Pennsylvania,42003561400,561400,,Wilkinsburg ,,0.385814864,0
+Pennsylvania,42003561500,561500,,Wilkinsburg ,,0.388965278,0
+Pennsylvania,42003561600,160300,561600,Pittsburgh  ,Arlington,0.334520462,1
+Pennsylvania,42003561600,160400,561600,Pittsburgh  ,Arlington Heights,0.473120252,1
+Pennsylvania,42003561700,160600,561700,Pittsburgh  ,Saint Clair,0.699500402,1
+Pennsylvania,42003561700,160700,561700,Pittsburgh  ,Mount Oliver Neighborhood,0.380567299,1
+Pennsylvania,42003561900,120100,"561900, 980000 & 981800",Pittsburgh  ,Lincoln-Lemington-Belmar,0.637099034,1
+Pennsylvania,42003562000,40300,562000 & 982200,Pittsburgh  ,North Oakland,0.070352811,1
+Pennsylvania,42003562300,150100,562300,Pittsburgh  ,Hazelwood,0.371847244,1
+Pennsylvania,42003562300,150400,562300,Pittsburgh  ,Glen Hazel,0.383138055,1
+Pennsylvania,42003562400,180600,562400,Pittsburgh  ,Bon Air,0.289504665,1
+Pennsylvania,42003562400,180900,562400,Pittsburgh  ,Beltzhoover,0.479978155,1
+Pennsylvania,42003562500,201700,562500,Pittsburgh  ,Esplen,0.348333537,1
+Pennsylvania,42003562500,201800,562500,Pittsburgh  ,Sheraden,0.348089355,1
+Pennsylvania,42003562600,201900,562600,Pittsburgh  ,West End,0.287903689,1
+Pennsylvania,42003562600,202000,562600,Pittsburgh  ,Elliott,0.344055061,1
+Pennsylvania,42003562700,220100,562700,Pittsburgh  ,Allegheny West,0.20639897,1
+Pennsylvania,42003562700,220400,562700,Pittsburgh  ,Allegheny Center,0.313581335,1
+Pennsylvania,42003562800,280500,562800,Pittsburgh  ,East Carnegie,0.332559825,1
+Pennsylvania,42003562800,281200,562800,Pittsburgh  ,Oakwood,0.268579214,1
+Pennsylvania,42003562900,310100,562900,Pittsburgh  ,Hays,0.306539098,1
+Pennsylvania,42003563000,202100,563000,Pittsburgh  ,Chartiers City,0.438444683,1
+Pennsylvania,42003563000,280700,563000,Pittsburgh  ,Windgap,0.340615473,1
+Pennsylvania,42003563000,280800,563000,Pittsburgh  ,Fairywood,0.820311359,1
+Pennsylvania,42003563100,201600,563100,Pittsburgh  ,Ridgemont,0.27678553,1
+Pennsylvania,42003563100,281100,563100,Pittsburgh  ,Westwood,0.268105915,1
+Pennsylvania,42003563200,230400,563200,Pittsburgh  ,East Allegheny,0.388730745,1
+Pennsylvania,42003563300,438000,563300,Sewickley Hills ,,0.198084055,0
+Pennsylvania,42003563300,440000,563300,Sewickley Heights ,,0.204027056,0
+Pennsylvania,42003563800,433000,563800,Ben Avon Heights ,,0.127445941,0
+Pennsylvania,42003563800,436000,563800,Kilbuck  ,,0.239786066,0
+Pennsylvania,42003563800,441000,563800,Aleppo  ,,0.219856787,0
+Pennsylvania,42003563800,442000,563800,Glenfield ,,0.303860638,0
+Pennsylvania,42003563800,443000,563800,Haysville ,,0.291313985,0
+Pennsylvania,42003563800,444000,563800,Glen Osborne ,,0.195962113,0
+Pennsylvania,42003563900,511000,563900,Chalfant ,,0.28788103,0
+Pennsylvania,42003563900,518002,563900,Forest Hills ,,0.242964131,0
+Pennsylvania,42003564000,453002,564000,North Fayette  ,,0.294893715,0
+Pennsylvania,42003564000,454000,564000,Mc Donald  (part),,0.277667366,0
+Pennsylvania,42003564100,466000,564100,Thornburg ,,0.161277506,0
+Pennsylvania,42003564100,467000,564100,Rosslyn Farms ,,0.145469927,0
+Pennsylvania,42003564200,502000,564200,South Versailles  ,,0.300970771,0
+Pennsylvania,42003564200,503001,564200,White Oak ,,0.285672762,0
+Pennsylvania,42003564400,504400,5644,North Versailles  ,,0.294694007,0
+Pennsylvania,42003564400,505000,5644,Trafford (part),,0.249314142,0
+Pennsylvania,42003564400,506000,5644,Wall ,,0.304833996,0
+Pennsylvania,42003564500,491102,564500,Jefferson Hills ,,0.294325941,0
+Pennsylvania,42003564500,493000,564500,West Elizabeth ,,0.299610881,0
+Pennsylvania,42003980000,120200,"561900, 980000 & 981800",Pittsburgh  ,Lincoln-Lemington-Belmar,0.525315088,1
+Pennsylvania,42003980600,210800,980600,Pittsburgh  ,Chateau,0.439386232,1
+Pennsylvania,42003980700,192100,980700,Pittsburgh  ,South Shore,0.354375073,1
+Pennsylvania,42003981200,220500,563200 & 981200,Pittsburgh  ,North Shore,0.12148674,1
+Pennsylvania,42003981800,120300,,Pittsburgh  ,Lincoln-Lemington-Belmar,0.574293284,1
+Pennsylvania,42003982200,50700,562000 & 982200,Pittsburgh  ,North Oakland,0.138805552,1

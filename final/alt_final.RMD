@@ -1,0 +1,197 @@
+---
+title: "DAT 204 Final Project"
+author: "Kayla"
+date: "December 8, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Final Project
+
+For my final project. I reviewed obesity rates in Allegheny County. My claim is that obesity is more prevelant in the city of Pittsburgh than other Allegheny County municipalities. This data was sourced from the [Western PA Regional Data Center](https://data.wprdc.org/dataset/allegheny-county-obesity-rates). 
+
+### Information About this Datset 
+
+Per the Western PA Regional Data Center, "Obesity rates for each Census Tract in Allegheny County were produced for the study 'Developing small-area predictions for smoking and obesity prevalence in the United States.'" The rates were estimated using statistical methods.
+
+### Data Cleaning 
+Not much cleaning had to occur to this dataset. I did clean up the formatting of the column names to make them easier to work with in R. The main edit I made was to add an additional column to indicate if the municipality was within the city of Pittsburgh. If so, the column "is_pittsburgh" is equal to 1. If not, it is equal to 0. 
+
+```{r}
+# import libraries for future use
+library(stringr)
+library(ggplot2)
+```
+
+```{r}
+
+# read in csv 
+obesity <- read.csv("obesity_rate.csv", stringsAsFactors=FALSE)
+head(obesity)
+```
+## Statistics
+
+First, let's look at some statistics about the dataset as a whole. We can see that the overall average obesity rate in the county is approximately 29.95%.
+```{r}
+obesity_rate <- obesity$est_obesity_rate
+
+# call statistical methods and mulitiply by 100 to get rate
+overall_mean <- mean(obesity_rate)*100
+overall_median <- median(obesity_rate)*100
+overall_max <- max(obesity_rate)*100
+overall_min <- min(obesity_rate)*100
+
+cat("The average obesity rate in Allgheny County is: ", overall_mean, "%.", '\n', sep ="")
+cat("The median obesity rate in Allegheny Count is ", overall_median, "%.", '\n', sep ="")
+cat("The highest obesity rate within the county is ", overall_max, "% while the lowest is ", overall_min, "%.", '\n', sep ="")
+```
+Next, let's pull out the city of Pittsburgh specifically 
+```{r}
+
+# create a TF vector that searches for rows where Pittsburgh is the municipality
+pittsburgh_tf <- str_detect(obesity$municipality, "Pittsburgh")
+pitt_df <- obesity[pittsburgh_tf, ] # apply TF vectdor to overall datset
+
+head(pitt_df) # we now have a dataset that's just the city of Pittsburgh 
+
+pitt_obesity <- pitt_df$est_obesity_rate # create vector 
+
+```
+We'll run the same statistics on the city of Pittsburgh dataset. The obesity rates within Pittsburgh are broken down by neighborhood. 
+```{r}
+pitt_mean <- mean(pitt_obesity)*100
+pitt_med <- median(pitt_obesity)*100
+pitt_max <- max(pitt_obesity)*100
+pitt_min <- min(pitt_obesity)*100 
+
+cat("The average obesity rate in Pittsburgh is ", pitt_mean, "%.", '\n', sep ="")
+cat("The median obesity rate in Pittsburgh is ", pitt_med, "%.", '\n', sep ="")
+cat("The highest obesity rate within the city is ", pitt_max, "%, while the lowest is ", pitt_min, "%.", '\n', sep ="")
+
+
+```
+ We can see that both the mean and median obesity rates for the City of Pittsburgh are higher than the overall dataset. The highest obesity rate in the county is in Pittsburgh. Conversely, the lowest rate is in the city as well. 
+ 
+ Next, let's look at the municipalities outside of the city. 
+```{r}
+
+# create a TF vector to filter out all the municipalities outside the city
+not_pitt <- obesity$is_pittsburgh == 0
+
+# apply TF vector to dataframe and create new df
+rest_of_county <- obesity[not_pitt, ]
+head(rest_of_county)
+
+roc_obesity <- rest_of_county$est_obesity_rate
+```
+```{r}
+# run statistics and multiply by 100
+roc_mean <- mean(roc_obesity)*100 
+roc_med <- median(roc_obesity)*100
+roc_max <- max(roc_obesity)*100
+roc_min <- min(roc_obesity)*100
+
+
+cat('WIthin Allegheny County but outside the city of Pittsburgh, the average obesity rate is ', roc_mean, "%.", '\n', sep ="")
+cat("The median obesity rate within the rest of the county is ", roc_med, "%.", '\n', sep ="")
+cat("The highest obesity rate outside of the city is ", roc_max, "%, while the lowest rate is ", roc_min, "%.", '\n', sep ="")
+
+```
+The mean and median estimated obesity rates for municipalities outside of Pittsburgh is lower than the rates in the city. Additionally, the maximum estimated obesity rate is much lower than within the city. 
+
+
+```{r}
+# create vector of means
+mean_vector <- c(overall_mean, pitt_mean, roc_mean)
+
+areas <- c("Allegheny County", "City of Pttsburgh", "Rest of County")
+
+#create dataframe so that we can plot these values 
+mean_df <- df <- data.frame("Area" = areas, "Avg_Obesity_Rate" = mean_vector)
+
+mean_df
+```
+
+```{r}
+ggplot(data = mean_df, aes(x = Area, y = Avg_Obesity_Rate))+
+  geom_point(aes(color = Avg_Obesity_Rate)) +
+  ylim(0, 40)+
+  labs(title =" Average Obesity Rate by Area", x = "Area", y = "Avg. Obesity Rate")+
+  theme_classic()
+```
+
+
+## Standard Deviation
+
+Let's look at the amount of variation within our datasets. 
+```{r}
+# sd(obesity_rate)
+# sd(pitt_obesity)
+# sd(roc_obesity)
+
+cat("The standard deviation of obesity rates within the entire county is ", sd(obesity_rate), ".", '\n', sep ="")
+cat("The standard deviation of obestiy rates within Pittsburgh is ", sd(pitt_obesity), ".", '\n', sep="")
+cat('The standard deviation of obesity rates outside the city of Pittsburgh is ', sd(roc_obesity), ".", '\n', sep ="")
+
+```
+We can see that there is more variation in the obesity rates within the city than in the rest of the county. 
+
+## More Graphs!
+
+We'll look at some box plots to view the spread of our data. 
+
+```{r}
+ggplot(data = obesity, aes(x=est_obesity_rate))+
+  geom_boxplot(fill = "yellow")+
+  labs(title =" Variation in Average Obesity Rate in Allegheny County")+
+  xlim(-0.2, 1) # set x axis 
+```
+
+```{r}
+ggplot(data = pitt_df, aes(x = est_obesity_rate))+
+  geom_boxplot(fill = "firebrick2")+
+  labs(title =" Variation in Average Obesity Rate in the City of Pittsburgh")+
+  xlim(-0.2, 1) # set x axis the same for each graph
+```
+```{r}
+ggplot(data = rest_of_county, aes(x = est_obesity_rate))+
+  geom_boxplot(fill = "lightgreen")+
+  labs(title =" Variation in Average Obesity Rate in the Rest of Allegheny County")+
+  xlim(-0.2, 1) # set x axis the same for each graph
+
+```
+## Pittsburgh
+
+Let's get a little more information about obesity rates within the city. First we'll plot by neighborhood. 
+
+```{r}
+ggplot(data = pitt_df, aes(x = city_neighborhood, y = est_obesity_rate))+
+         geom_point(color = "midnightblue")+
+  theme(axis.text.x = element_text(angle = 90, size = 6))+ # change angle and size of text
+  labs(title = "Average Obesity Rates by City Neighborhood", x = "Neighborhood", y = "Obesity Rate")
+```
+```{r}
+highest <- pitt_df$est_obesity_rate > 0.65 # create TF vector to filter out obestity rates higher than 65% 
+
+highest_rates <- pitt_df[highest, ] # apply vector to Pittsburgh dataset  
+highest_rates # create new df 
+
+```
+We can see there are 8 neighborhoods with obesity rates of higher than 65%. Let's plot this.
+
+```{r}
+ggplot(data = highest_rates, aes(x = city_neighborhood, y = est_obesity_rate))+
+         geom_point(color = "orchid")+ 
+  theme(axis.text.x = element_text(angle = 90))+
+  labs(title = "Average Obesity Rates by City Neighborhood", x = "Neighborhood", y = "Obesity Rate")+
+  ylim(0.5, 1)
+```
+
+By plotting these neighborhoods, we can clearly see that the neighborhood of Northview Heights has the highest obesity rate in the city. 
+
+## Conclusion
+
+
