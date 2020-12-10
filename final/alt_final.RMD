@@ -1,6 +1,6 @@
 ---
 title: "DAT 204 Final Project"
-author: "Kayla"
+author: "Kayla Bracall"
 date: "December 8, 2020"
 output: html_document
 ---
@@ -191,7 +191,7 @@ ggplot(data = highest_rates, aes(x = city_neighborhood, y = est_obesity_rate))+
 ```
 
 By plotting these neighborhoods, we can clearly see that the neighborhood of Northview Heights has the highest obesity rate in the city. 
-_______
+
 
 Let's look at the rest of the county...
 
