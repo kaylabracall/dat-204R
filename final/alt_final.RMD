@@ -191,7 +191,20 @@ ggplot(data = highest_rates, aes(x = city_neighborhood, y = est_obesity_rate))+
 ```
 
 By plotting these neighborhoods, we can clearly see that the neighborhood of Northview Heights has the highest obesity rate in the city. 
+_______
+
+Let's look at the rest of the county...
+
+```{r}
+highest_roc <- rest_of_county$est_obesity_rate > 0.65 # create TF vector to filter out obestity rates higher than 65% 
+
+highest_rates_roc <- rest_of_county[highest_roc, ] # apply vector to Pittsburgh dataset  
+highest_rates_roc
+```
+There are no municipalities outside the city that have an estimated obesity rate of higher than 65%.
 
 ## Conclusion
+We can see from our data that the City of Pittsburgh has a higher average obesity rate than muncipalities within Allgeheny County outside the city. Additionally, there is more variation in the rates within the city than outside the city. We can also see that there are 8 neighborhoods in Pittsburgh with an estimated obesity rate of greater than 65%, with Northview Heights having both the highest obesity rate in the city, as well as within the county. None of the municipalities outside the city have estimated obesity rates higher than 65%.
 
+Further analysis is needed to determine the cause of the differences in obesity rates within and outside the City of Pittsburgh. My suggestion for future analysis would be to look at income levels in municipalities within Allegheny County, as well as the proximity of grocery stores to each municipality. These, along with other factors, would allow for a more nuanced understanding of this data. 
 
